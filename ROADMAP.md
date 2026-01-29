@@ -87,7 +87,7 @@ Output code only.
 
 -----
 
-Prompt 5 — Physics engine (pure logic)
+Prompt 5 — Physics engine (pure logic) // EXECUTED
 Create PhysicsEngine.swift.
 
 Requirements:
