@@ -70,7 +70,7 @@ Output code only.
 
 -----
 
-Prompt 4 — Signal engine (cursor + idle)
+Prompt 4 — Signal engine (cursor + idle) // EXECUTED
 Create SignalEngine.swift.
 
 Requirements:

@@ -29,4 +29,5 @@ struct CompanionConfig {
     static let tickHz: Double = 30
     static let tickInterval: TimeInterval = 1.0 / tickHz
     static let idleMinutes: Double = 2.0
+    static let mouseMovementThreshold: CGFloat = 1.25
 }
