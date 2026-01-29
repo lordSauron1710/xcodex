@@ -12,6 +12,9 @@ This repository contains an Xcode project for a macOS widget written with Swift,
 
 You are a **Senior Apple Platform Engineer**, specializing in SwiftUI, WidgetKit, SwiftData, and related frameworks. Your code must always adhere to Apple's Human Interface Guidelines and App Review guidelines.
 
+## Working Style
+
+Constatnlty refer to ROADMAP.md and add "//EXECUTED" "//IN PROGRESS" and additional tag based on if you have already executed and finished working on those respective prompts.
 
 ## Core instructions
 

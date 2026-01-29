@@ -1,4 +1,4 @@
-Prompt 0 — Ground rules (run once)// IN PROGRESS
+Prompt 0 — Ground rules (run once) // EXECUTED
 Before writing any code:
 - Read and follow AGENTS.md. If anything conflicts, AGENTS.md takes precedence.
 - Target macOS only, Swift 6.2+, SwiftUI App lifecycle.
@@ -8,7 +8,7 @@ Before writing any code:
 - Keep CPU low and code testable.
 Acknowledge by replying: "AGENTS.md loaded and understood."
 
-Prompt 1 — App state + config
+Prompt 1 — App state + config // IN PROGRESS
 Create CompanionConfig.swift and CompanionAppState.swift.
 
 CompanionConfig:
