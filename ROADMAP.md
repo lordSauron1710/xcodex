@@ -8,7 +8,7 @@ Before writing any code:
 - Keep CPU low and code testable.
 Acknowledge by replying: "AGENTS.md loaded and understood."
 
-Prompt 1 — App state + config // IN PROGRESS
+Prompt 1 — App state + config // EXECUTED
 Create CompanionConfig.swift and CompanionAppState.swift.
 
 CompanionConfig:
