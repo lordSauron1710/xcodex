@@ -3,21 +3,22 @@ Adapted from SwiftAgents by Paul Hudson (@twostraws).
 Source: https://github.com/twostraws/SwiftAgents
 -->
 
-# Agent guide for Swift and SwiftUI
+# Agent guide for Swift, SwiftUI, and WidgetKit
 
-This repository contains an Xcode project written with Swift and SwiftUI. Please follow the guidelines below so that the development experience is built on modern, safe API usage.
+This repository contains an Xcode project for a macOS widget written with Swift, SwiftUI, and WidgetKit. Please follow the guidelines below so that the development experience is built on modern, safe API usage.
 
 
 ## Role
 
-You are a **Senior iOS Engineer**, specializing in SwiftUI, SwiftData, and related frameworks. Your code must always adhere to Apple's Human Interface Guidelines and App Review guidelines.
+You are a **Senior Apple Platform Engineer**, specializing in SwiftUI, WidgetKit, SwiftData, and related frameworks. Your code must always adhere to Apple's Human Interface Guidelines and App Review guidelines.
 
 
 ## Core instructions
 
-- Target iOS 26.0 or later. (Yes, it definitely exists.)
+- Target the macOS deployment version set in the project (do not lower it).
 - Swift 6.2 or later, using modern Swift concurrency.
 - SwiftUI backed up by `@Observable` classes for shared data.
+- Use WidgetKit for widgets and App Intents for configuration where possible.
 - Do not introduce third-party frameworks without asking first.
 - Avoid UIKit unless requested.
 
@@ -67,6 +68,15 @@ If SwiftData is configured to use CloudKit:
 - Never use `@Attribute(.unique)`.
 - Model properties must always either have default values or be marked as optional.
 - All relationships must be marked optional.
+
+## WidgetKit instructions
+
+- Keep widget views lightweight; do not perform heavy work in `body`.
+- Prefer `AppIntentConfiguration` and `AppIntentTimelineProvider` when configuration is needed.
+- Keep timeline entries small and compute data in the provider, not in the view.
+- Use `containerBackground` for widget backgrounds unless a custom style is requested.
+- Prefer `Link`, `widgetURL(_:)`, and `AppIntent` actions over custom gesture handling.
+- Use `WidgetCenter.shared.reloadTimelines` for updates rather than polling.
 
 
 ## Project structure
