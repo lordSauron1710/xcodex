@@ -47,7 +47,7 @@ Output code only.
 
 -----
 
-Prompt 3 — Overlay window
+Prompt 3 — Overlay window // EXECUTED
 Create OverlayController.swift.
 
 Responsibilities:
