@@ -3,6 +3,15 @@ Adapted from SwiftAgents by Paul Hudson (@twostraws).
 Source: https://github.com/twostraws/SwiftAgents
 -->
 
+# References (must follow)
+
+Strictly adhere to the rules and principles described in the links below.
+
+- https://developer.apple.com/documentation/technologyoverviews/liquid-glass/
+- https://developer.apple.com/documentation/swift/
+- https://developer.apple.com/documentation/SwiftUI
+- https://developer.apple.com/design/human-interface-guidelines
+
 # Agent guide for Swift, SwiftUI, and WidgetKit
 
 This repository contains an Xcode project for a macOS widget written with Swift, SwiftUI, and WidgetKit. Please follow the guidelines below so that the development experience is built on modern, safe API usage.
