@@ -8,6 +8,8 @@ Before writing any code:
 - Keep CPU low and code testable.
 Acknowledge by replying: "AGENTS.md loaded and understood."
 
+-----
+
 Prompt 1 — App state + config // EXECUTED
 Create CompanionConfig.swift and CompanionAppState.swift.
 
@@ -25,7 +27,9 @@ CompanionAppState:
 One type per file. No UI code.
 Output code only, grouped by filename.
 
-Prompt 2 — Menu bar controller
+-----
+
+Prompt 2 — Menu bar controller // EXECUTED
 Create MenuBarController.swift.
 
 Responsibilities:
@@ -40,6 +44,8 @@ Responsibilities:
 
 Stay compliant with AGENTS.md.
 Output code only.
+
+-----
 
 Prompt 3 — Overlay window
 Create OverlayController.swift.
@@ -62,6 +68,8 @@ Responsibilities:
 No physics or cursor logic here.
 Output code only.
 
+-----
+
 Prompt 4 — Signal engine (cursor + idle)
 Create SignalEngine.swift.
 
@@ -76,6 +84,8 @@ Requirements:
 
 Mouse-only signals. Avoid permissions.
 Output code only.
+
+-----
 
 Prompt 5 — Physics engine (pure logic)
 Create PhysicsEngine.swift.
@@ -106,6 +116,8 @@ Outputs:
 
 Output code only.
 
+-----
+
 Prompt 6 — Companion model
 Create CompanionModel.swift.
 
@@ -124,6 +136,8 @@ Requirements:
 No rendering code here.
 Output code only.
 
+-----
+
 Prompt 7 — Companion view (procedural ball)
 Create CompanionView.swift.
 
@@ -141,6 +155,8 @@ Requirements:
 
 Output code only.
 
+-----
+
 Prompt 8 — App wiring
 Wire everything together.
 
@@ -156,6 +172,8 @@ Tasks:
 
 Only update ContentView.swift or App entry point as needed.
 Output code only.
+
+-----
 
 Prompt 9 — Unit tests
 Create PhysicsEngineTests.swift.
